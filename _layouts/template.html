@@ -19,14 +19,14 @@
         
         <img src="images/profile_pic.jpeg">
 
-        <p><a href="https://www.ucd.ie/economics/" target="https://www.ucd.ie/economics/">PhD Candidate in Economics at  University College Dublin</a></p>
+         <p><a href="https://www.ucd.ie/economics/" target="https://www.ucd.ie/economics/">PhD Candidate in Economics at  University College Dublin</a></p>PSE)</a></p>
      
         
-       <br>
+        <br>
         <small>prachi.srivastava [at] ucdconnect.ie</small><br>
         <small>prachi.jmc13 [at] gmail.com</small>
-      <br>
-      
+        <br>
+        
         <img src='https://www.pngfind.com/pngs/m/110-1102328_iconos-de-redes-sociales-png-sebtec-logo-twitter.png' height=5% width=5%>
         <a href="https://twitter.com/PrachiSpace9" target="https://twitter.com/PrachiSpace9">Twitter</a>
         <br>
@@ -39,6 +39,16 @@
        
 
         {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
+     
+       <section>
+       
+    {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
