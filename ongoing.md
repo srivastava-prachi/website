@@ -39,7 +39,7 @@ order: 1
   </blockquote>
  </details>
 <br>
-![](images/wbl_childcare.jpeg)
+![](images/oil_inf_exp.png)
 
 ---
 
