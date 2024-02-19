@@ -1,7 +1,7 @@
 ---
-title: Oingoing work
+title: Ongoing work
 layout: template
-filename: ongoing
+filename: Ongoing
 order: 1
 ---
 
