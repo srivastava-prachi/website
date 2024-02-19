@@ -15,7 +15,7 @@ order: 1
   <summary> Abstract </summary> 
   <br>
   <blockquote>
-    TWe analyse climate investment expectations using a large survey of UK firms. Firms expect climate-related investments to account for 5.4\% of their total capital expenditure over the next three years, an increase from 2.5\% over the past three years. Around two-thirds of these investments are expected to be in additional to normal capital expenditures, with some firms investing less elsewhere. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Climate investments will driven by larger firms as well as those in more energy-intensive sectors.
+    We analyse climate investment expectations using a large survey of UK firms. Firms expect climate-related investments to account for 5.4\% of their total capital expenditure over the next three years, an increase from 2.5\% over the past three years. Around two-thirds of these investments are expected to be in additional to normal capital expenditures, with some firms investing less elsewhere. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Climate investments will driven by larger firms as well as those in more energy-intensive sectors.
   </blockquote>
  </details>
 <br>
