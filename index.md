@@ -7,7 +7,7 @@ order: 0
 
 ## English
 
-I'm an Economics Ph.D. candidate at the [University College Dublin (UCD)](https://www.ucd.ie/economics/phd/){:target="_blank"} under the supervision of [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} and co-supervised by [Constantin Burgi](https://www.musikbase.net/cgi-sys/suspendedpage.cgi){:target="_blank"}.
+I'm an Economics Ph.D. candidate at the [University College Dublin (UCD)](https://www.ucd.ie/economics/phd/){:target="_blank"} under the supervision of [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} and co-supervised by [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.
 
 My research focuses on Inflation Expectations and Monetary Policy using different expectations survey data. In particular, my current projects investigate the relationship between Inflation and Oil forecasts using the Survey of Professional Forecasters and Consumers' Expectations data.
 
