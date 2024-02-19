@@ -15,8 +15,8 @@ I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:
 
 ## My updates
 
-Presented at IPECE 2024 (UCD Economics)
-Poster session at the Central Bank of Ireland
+- Presented at IPECE 2024 (UCD Economics)
+- Poster session at the Central Bank of Ireland
 
 
 ## Visitings
