@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 minimal_mistakes_skin: "contrast"
-title: Prachi Srivastava
+title: 
 description: 
 markdown: kramdown
 remote_theme: pages-themes/minimal@v0.2.0
@@ -9,6 +9,3 @@ plugins:
 - jekyll-multiple-languages-plugin
 - jemoji
 show_downloads: false
-github:
-  is_project_page: true
-  languages: ["en"]
