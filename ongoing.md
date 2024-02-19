@@ -19,7 +19,7 @@ order: 1
   </blockquote>
  </details>
 <br>
-![](images/tigres_del_norte_folsom.jpeg)
+![](images/wordcloud_comments_climate_clean.png)
 
 ---
 
