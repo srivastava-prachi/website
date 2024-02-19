@@ -45,6 +45,4 @@ order: 1
 
 
 
-**It’s raining kids! The labor market effects of unexpected school closures.** With Lucile Dehouck and Romaine Loubes.
 
----
