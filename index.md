@@ -20,7 +20,7 @@ I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:
 
 
 ## Visitings
-- Visited the Bank of England as a Ph.D. intern (Sep'23-Dec'23).
-- Visited the Bank for International Settlements as a PhD visiting fellow (April 20203 - July 2023)
+- Visited the [Bank of England](https://www.bankofengland.co.uk/){:target="_blank"} as a Ph.D. intern (Sep'23-Dec'23).
+- Visited the [Bank for International Settlements](https://www.bis.org/){:target="_blank"} as a PhD visiting fellow (April 20203 - July 2023)
 
 
