@@ -1,7 +1,7 @@
 ---
 title: Publications
 layout: template
-filename: publications
+filename: publications.md
 order: 2
 ---
 
