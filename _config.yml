@@ -1,11 +1,9 @@
 theme: jekyll-theme-minimal
 minimal_mistakes_skin: "contrast"
-title: Prachi Homepage
+title: Prachi Website
 description: 
 markdown: kramdown
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-- jekyll-multiple-languages-plugin
-- jemoji
+- jekyll-remote-theme
 show_downloads: false
