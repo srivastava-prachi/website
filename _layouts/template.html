@@ -60,9 +60,10 @@
        
      <nav>
       <ul>
-        {% for item in page.nav_items %}
-      <li><a href="{{ item.filename | append: site.github.url }}">{{ item.title }}</a></li>
-    {% endfor %}
+        {% assign sorted_pages = site.pages | sort:"order" %}
+          {% for node in sorted_pages %}
+          <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{node.title}}{{ site.github.url }}">{{node.title}}</a></li>
+        {% endfor %}
       </ul>
     </nav>  
         
