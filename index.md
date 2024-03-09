@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: template
-filename: index
+filename: index.md
 order: 0
 ---  
 
