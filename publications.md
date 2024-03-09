@@ -2,7 +2,7 @@
 title: Publications
 layout: template
 filename: publications
-url: images/publications.md
+url: publications.md
 order: 2
 ---
 
