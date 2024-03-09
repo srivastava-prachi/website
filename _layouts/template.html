@@ -60,10 +60,9 @@
        
      <nav>
       <ul>
-        <li><a class="nav1" href="{{ site.github.url }}">About</a></li>
-        <li><a class="nav2" href="{{ "ongoing" | append: site.github.url }}">Ongoing</a></li>
-        <li><a class="nav3" href="{{ "publications" | append: site.github.url }}">Publications</a></li>
-        <li><a class="nav4" href="{{ "teaching" | append: site.github.url }}">Teaching</a></li>
+        {% for item in page.nav_items %}
+      <li><a href="{{ item.filename | append: site.github.url }}">{{ item.title }}</a></li>
+    {% endfor %}
       </ul>
     </nav>  
         
