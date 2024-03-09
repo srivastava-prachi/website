@@ -5,5 +5,9 @@ description:
 markdown: kramdown
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-multiple-languages-plugin
+  - jemoji
 show_downloads: false
+github:
+  is_project_page: true
+  languages: ["en"]
