@@ -3,7 +3,6 @@ minimal_mistakes_skin: "contrast"
 title: Prachi Website
 description: 
 markdown: kramdown
-remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-multiple-languages-plugin
   - jemoji
