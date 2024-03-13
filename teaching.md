@@ -10,8 +10,8 @@ order: 3
 **[University College Dublin (Jan 2022 - Present)](){:target="_blank"}**
 
 - [Macroeconomics](){:target="_blank"}
-    - **Advanced Macroeconomics**. Masters in Economics().
-    - **Intermediate Macroeconomics**. Second year undergraduate().
+    - **Advanced Macroeconomics**. Masters in Economics.
+    - **Intermediate Macroeconomics**. Second-year undergraduate.
 
 
 **[Science Po](){:target="_blank"}**.
