@@ -13,6 +13,8 @@ My research focuses on Inflation Expectations and Monetary Policy using differen
 
 I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:target="_blank"} and a Master's degree in Economics from [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/en/){:target="_blank"} and [Ecole des Hautes Études en Sciences Sociales (EHESS)](https://www.ehess.fr/en/node/9861){:target="_blank"} and Financial Economics from [Madras School of Economics (MSE)](https://www.mse.ac.in/){:target="_blank"}.
 
+I am a co-organiser of the [Young Irish Economics Seminar Series (YIESS)](https://sites.google.com/view/yiess){:target="_blank"}. 
+
 ## [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank}
 
 ## My updates
