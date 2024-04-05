@@ -17,8 +17,10 @@ I am a co-organiser of the [Young Irish Economics Seminar Series (YIESS)](https:
 
 ## [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank}
 
-## My updates
+## Updates 
 
+- Presenting at the Irish Economics Association (9th-10th May 2024)
+- Presenting at LSE/Imperial Workshop, London (10th-11th June 2024)
 - Presented at IPECE 2024 (UCD Economics)
 - Poster session at the Central Bank of Ireland
 
