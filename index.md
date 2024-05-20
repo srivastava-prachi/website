@@ -21,13 +21,14 @@ You can download my [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank} 
 
 ## Updates 
 
-- Presenting at the Irish Economics Association (9th-10th May 2024)
 - Presenting at LSE/Imperial Workshop, London (10th-11th June 2024)
+- Presenting at the Irish Economics Association (9th-10th May 2024)
 - Presented at IPECE 2024 (UCD Economics)
 - Poster session at the Central Bank of Ireland
 
 
 ## Visitings
+- Joining as an intern at the IMF fund Internship program for summer 2024.
 - Visited the [Bank of England](https://www.bankofengland.co.uk/){:target="_blank"} as a Ph.D. intern (Sep'23-Dec'23).
 - Visited the [Bank for International Settlements](https://www.bis.org/){:target="_blank"} as a PhD visiting fellow (April 20203 - July 2023)
 
