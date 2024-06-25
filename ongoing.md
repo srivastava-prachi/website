@@ -40,6 +40,7 @@ order: 1
 # Working papers
 
 **[Oil Prices and Inflation Forecasts](https://www.ucd.ie/economics/t4media/WP23_27.pdf)** With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} , [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.
+R and R JMCB
 
 <details>
   <summary> Abstract </summary> 
