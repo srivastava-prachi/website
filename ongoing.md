@@ -29,7 +29,7 @@ order: 1
 
 # Work in Progress
 
-**Wage and Inflation Expectations and Role of Uncertainty (JMP)** With [Philip Schnattinger]([[https://karlwhelan.com/blog/]){:target="_blank"}.
+**Wage and Inflation Expectations and Role of Uncertainty (JMP)** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
 > Draft coming soon!
 <details>
@@ -41,7 +41,9 @@ order: 1
  </details>
 <be>
 
-**Firm Climate investments: Evidence from the UK** 
+---
+
+**Firm Climate investments: Evidence from the UK** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}.
 
 > Draft coming soon!
 
@@ -54,9 +56,6 @@ order: 1
  </details>
 <br>
 ![](images/wordcloud_comments_climate_clean.png)
-
-
-
 
 ---
 
