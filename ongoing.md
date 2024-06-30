@@ -39,14 +39,12 @@ order: 1
     In this paper, we study the heterogeneous effects of individual-level uncertainty of prices on individual wage expectations decisions using the FRBNY Survey of Consumer Expectations. We focus on the transmission of the first (level) and second moment (uncertainty) of expected inflation on the level of wage expectations during uncertain times and how these differ along the income distribution. We find that individual-level expected inflation uncertainty is positively correlated with wage expectations. Moreover, higher inflation uncertainty is linked to a greater rise in wage expectations for poorer households. We explain this observation with a novel mechanism: workers precautiously bargain for higher wages when uncertainty about inflation risks the erosion of their real wages. Thus, inflation uncertainty may be an additional driver of wage growth, especially for lower-income workers. 
   </blockquote>
  </details>
-<be>
+<br>
 
----
 
 **Firm Climate investments: Evidence from the UK** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}.
 
 > Draft coming soon!
-
 <details>
   <summary> Abstract </summary> 
   <br>
