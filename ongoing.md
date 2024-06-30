@@ -55,7 +55,6 @@ order: 1
   </blockquote>
  </details>
 <br>
-![](images/wordcloud_comments_climate_clean.png)
 
 ---
 
