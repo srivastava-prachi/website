@@ -23,8 +23,8 @@ You can download my [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank} 
 
 ## Updates 
 
-- Presenting at LSE/Imperial Workshop, London (10th-11th June 2024)
-- Presenting at the Irish Economics Association (9th-10th May 2024)
+- Presented at LSE/Imperial Workshop, London (10th-11th June 2024)
+- Presented at the Irish Economics Association (9th-10th May 2024)
 - Presented at IPECE 2024 (UCD Economics)
 - Poster session at the Central Bank of Ireland
 
