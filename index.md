@@ -15,6 +15,8 @@ I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:
 
 I am a co-organiser of the [Young Irish Economics Seminar Series (YIESS)](https://sites.google.com/view/yiess){:target="_blank"}. 
 
+Currently, I am an intern at the International Monetary Fund [IMF](https://www.imf.org/en/Home){:target="_blank"}. 
+
 ## Resume
 
 You can download my [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank} here.
@@ -28,7 +30,6 @@ You can download my [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank} 
 
 
 ## Visitings
-- Joining as an intern at the IMF fund Internship program for summer 2024.
 - Visited the [Bank of England](https://www.bankofengland.co.uk/){:target="_blank"} as a Ph.D. intern (Sep'23-Dec'23).
 - Visited the [Bank for International Settlements](https://www.bis.org/){:target="_blank"} as a PhD visiting fellow (April 20203 - July 2023)
 
