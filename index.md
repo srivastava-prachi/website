@@ -19,7 +19,7 @@ Currently, I am an intern at the International Monetary Fund [IMF](https://www.i
 
 ## Resume
 
-You can download my [CV](./documents/prachi_srivastava_cv.pdf){:target="_blank} here.
+You can download my [CV](./documents/Prachi_Srivastava_CV.pdf){:target="_blank} here.
 
 ## Updates 
 
