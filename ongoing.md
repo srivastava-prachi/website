@@ -7,7 +7,7 @@ order: 1
 
 # Working papers
 
-**[Expectations for Gasoline Prices and Inflation:Evidence from Households]([https://www.ucd.ie/economics/t4media/WP23_27.pdf](https://github.com/srivastava-prachi/Expectations-for-Gasoline-Prices-and-Inflation-Evidence-from-Households-Replication/blob/main/Gasoline_Inflation_exp.pdf))** With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} , [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.
+**[Expectations for Gasoline Prices and Inflation:Evidence from Households]([Gasoline_Inflation_exp.pdf])** With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} , [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.
 
 > Revise and Resubmit JMCB
 
@@ -29,27 +29,28 @@ order: 1
 
 # Work in Progress
 
-**Wage and Inflation Expectations and Role of Uncertainty (JMP)** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+**Role of Inflation Uncertainty on Household Wage Growth Expectations (JMP)** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
 > Draft coming soon!
 <details>
   <summary> Abstract </summary> 
   <br>
   <blockquote>
-    In this paper, we study the heterogeneous effects of individual-level uncertainty of prices on individual wage expectations decisions using the FRBNY Survey of Consumer Expectations. We focus on the transmission of the first (level) and second moment (uncertainty) of expected inflation on the level of wage expectations during uncertain times and how these differ along the income distribution. We find that individual-level expected inflation uncertainty is positively correlated with wage expectations. Moreover, higher inflation uncertainty is linked to a greater rise in wage expectations for poorer households. We explain this observation with a novel mechanism: workers precautiously bargain for higher wages when uncertainty about inflation risks the erosion of their real wages. Thus, inflation uncertainty may be an additional driver of wage growth, especially for lower-income workers. 
+    In this paper, we examine the heterogeneous effects of individual-level uncertainty about prices (subjective uncertainty) on wage growth expectations, using data from the FRBNY Survey of Consumer Expectations. Our analysis focuses on how the first moment (level) and second moment (uncertainty) of expected inflation influence wage expectations during uncertain times and how these effects vary across the income distribution. We employ a novel instrument constructed from survey responses to capture these dynamics. Our findings indicate that individual-level expected inflation uncertainty is positively associated with wage growth expectations. Furthermore, higher inflation uncertainty is linked to a larger increase in wage expectations among low-income households. We attribute this mechanism to the impact of inflation uncertainty on job search behavior, where greater uncertainty prompts more job searching and EE behavior, thereby driving wage growth. Consequently, inflation uncertainty may serve as an additional factor contributing to wage growth, particularly for lower-income workers.
+
   </blockquote>
  </details>
 <br>
 
 
-**Firm Climate investments: Evidence from the UK** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}.
+*Firm climate investment: A glass half-full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom], [Philip Bunn],[Paul Mizern],[Gregory Thwaites]
 
 > Draft coming soon!
 <details>
   <summary> Abstract </summary> 
-  <br>
+  <br> 
   <blockquote>
-    We analyse climate investment expectations using a large survey of UK firms. Firms expect climate-related investments to account for 5.4\% of their total capital expenditure over the next three years, an increase from 2.5\% over the past three years. Around two-thirds of these investments are expected to be in additional to normal capital expenditures, with some firms investing less elsewhere. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Climate investments will driven by larger firms as well as those in more energy-intensive sectors.
+    We analyse the importance of climate-related investment using a large economy-wide survey of UK firms. Over half of firms expect climate change to have a positive impact on their investment in the medium term, with around a quarter expecting a large impact of over 10\%. Around two-thirds of these investments are expected to be in addition to normal capital expenditure, with some firms investing less elsewhere. These investments will be driven by larger firms as well as those in more energy-intensive sectors. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Overall, although firms are expecting to invest more resources in adapting to climate change, under reasonable assumptions, these investments are still not sufficient to meet the estimated targets implied by the UK Net Zero Pathway.
   </blockquote>
  </details>
 <br>
