@@ -37,7 +37,7 @@ order: 1
 </details>
 <br>
 
-**Firm Climate Investment: A Glass Half-Full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](https://people.stanford.edu/nbloom/){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
+**Firm Climate Investment: A Glass Half-Full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](#){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
 
 > Draft coming soon!
 
