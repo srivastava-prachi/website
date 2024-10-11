@@ -13,9 +13,9 @@ My research focuses on inflation expectations, consumer behaviour, and monetary 
 
 I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:target="_blank"} and a Master's degree in Economics from [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/en/){:target="_blank"} and [Ecole des Hautes Études en Sciences Sociales (EHESS)](https://www.ehess.fr/en/node/9861){:target="_blank"} and Financial Economics from [Madras School of Economics (MSE)](https://www.mse.ac.in/){:target="_blank"}.
 
-I am a co-organiser of the [Young Irish Economics Seminar Series (YIESS)](https://sites.google.com/view/yiess){:target="_blank"}. 
+I am a co-organizer of the [Young Irish Economics Seminar Series (YIESS)](https://sites.google.com/view/yiess){:target="_blank"}. 
 
-Currently, I am an intern at the International Monetary Fund [IMF](https://www.imf.org/en/Home){:target="_blank"}. 
+Currently, I am visiting the Department of Economics, University of Texas, Austin USA. 
 
 ## Resume
 
@@ -30,6 +30,7 @@ You can download my [CV](./documents/Prachi_Srivastava_CV.pdf){:target="_blank} 
 
 
 ## Visitings
+- Visited the [IMF](https://www.imf.org/en/Home){:target="_blank"} as a Ph.D. intern (Jun'24-Sep'23).
 - Visited the [Bank of England](https://www.bankofengland.co.uk/){:target="_blank"} as a Ph.D. intern (Sep'23-Dec'23).
 - Visited the [Bank for International Settlements](https://www.bis.org/){:target="_blank"} as a PhD visiting fellow (April 20203 - July 2023)
 
