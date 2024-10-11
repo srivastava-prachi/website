@@ -43,7 +43,7 @@ order: 1
 <br>
 
 
-*Firm climate investment: A glass half-full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom], [Philip Bunn],[Paul Mizern],[Gregory Thwaites]
+*Firm climate investment: A glass half-full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom], [Philip Bunn],[Paul Mizern],[Gregory Thwaites].
 
 > Draft coming soon!
 <details>
@@ -53,7 +53,21 @@ order: 1
     We analyse the importance of climate-related investment using a large economy-wide survey of UK firms. Over half of firms expect climate change to have a positive impact on their investment in the medium term, with around a quarter expecting a large impact of over 10\%. Around two-thirds of these investments are expected to be in addition to normal capital expenditure, with some firms investing less elsewhere. These investments will be driven by larger firms as well as those in more energy-intensive sectors. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Overall, although firms are expecting to invest more resources in adapting to climate change, under reasonable assumptions, these investments are still not sufficient to meet the estimated targets implied by the UK Net Zero Pathway.
   </blockquote>
  </details>
-<br>
+<be>
+
+
+*Measuring Cognitive Inflation Uncertainty: FRBNY ** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+
+> Draft coming soon!
+<details>
+  <summary> Abstract </summary> 
+  <br> 
+  <blockquote>
+   This article uses the Federal Reserve Board New York Fed Survey of Consumer Expectations (FRBNY SCE) to study household cognitive inflation uncertainty. We incorporate existing literature on cognition with expectations to uncover what goes into expected inflation uncertainty. This paper uses the round-number methods to create commodity uncertainty since June 2013.
+  </blockquote>
+ </details>
+<be>
+
 
 ---
 
