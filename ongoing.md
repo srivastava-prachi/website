@@ -43,7 +43,7 @@ order: 1
 <br>
 
 
-*Firm climate investment: A glass half-full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom], [Philip Bunn],[Paul Mizern],[Gregory Thwaites].
+**Firm climate investment: A glass half-full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom]{:target="_blank"}, [Philip Bunn]{:target="_blank"},[Paul Mizern]{:target="_blank"},[Gregory Thwaites]{:target="_blank"}.
 
 > Draft coming soon!
 <details>
@@ -56,7 +56,7 @@ order: 1
 <be>
 
 
-*Measuring Cognitive Inflation Uncertainty: FRBNY ** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+**Measuring Cognitive Inflation Uncertainty: FRBNY** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
 > Draft coming soon!
 <details>
