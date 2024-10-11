@@ -7,7 +7,7 @@ order: 1
 
 # Working papers
 
-**[Oil Prices and Inflation Forecasts](https://www.ucd.ie/economics/t4media/WP23_27.pdf)** With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} , [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.
+**[Expectations for Gasoline Prices and Inflation:Evidence from Households]([https://www.ucd.ie/economics/t4media/WP23_27.pdf](https://github.com/srivastava-prachi/Expectations-for-Gasoline-Prices-and-Inflation-Evidence-from-Households-Replication/blob/main/Gasoline_Inflation_exp.pdf))** With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"} , [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.
 
 > Revise and Resubmit JMCB
 
@@ -15,14 +15,14 @@ order: 1
   <summary> Abstract </summary> 
   <br>
   <blockquote>
-    We examine how people's forecasts for oil prices influence their forecasts for broader inflation. Despite debate in the literature about whether consumers place too much weight on oil prices when
-    making inflation predictions, we provide further confirmation for the results of Binder (2018), suggesting a low response to oil price forecasts, roughly consistent with the share of energy in the
-    US CPI or somewhat below. In contrast, we show that the participants in the ECB's Survey of Professional Forecasters and the Wall Street Journal survey of economists place too little weight on oil
-    prices when making their inflation forecasts.
+    Gasoline prices are highly salient to consumers and, for this reason, they may have an outsized
+    influence on their thinking about inflation. We examine how people’s expectations about gasoline prices influence their expectations for overall inflation. We find
+    little evidence from two US household surveys that people over-react to their beliefs about expected gasoline prices when
+    formulating their expectations about overall inflation.
   </blockquote>
  </details>
 <br>
-![](images/oil_inf_exp.png)
+![]()
 
 ---
 
