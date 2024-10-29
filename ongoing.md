@@ -18,7 +18,19 @@ order: 1
     Gasoline prices are highly salient to consumers and, for this reason, they may have an outsized influence on their thinking about inflation. We examine how people’s expectations about gasoline prices influence their expectations for overall inflation. We find little evidence from two US household surveys that people over-react to their beliefs about expected gasoline prices when formulating their expectations about overall inflation.
   </blockquote>
 </details>
-<br>
+<be>
+
+
+**[Firm Climate Investment: A Glass Half-Full](https://www.nber.org/papers/w33081){:target="_blank"}** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](#){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
+
+<details>
+  <summary>Abstract</summary>
+  <br>
+  <blockquote>
+    We analyze the importance of climate-related investment using a large economy-wide survey of UK firms. Over half of firms expect climate change to have a positive impact on their investment in the medium term, with around a quarter expecting a large impact of over 10%. Around two-thirds of these investments are expected to be in addition to normal capital expenditure, with some firms investing less elsewhere. These investments will be driven by larger firms as well as those in more energy-intensive sectors. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Overall, although firms are expecting to invest more resources in adapting to climate change, under reasonable assumptions, these investments are still not sufficient to meet the estimated targets implied by the UK Net Zero Pathway.
+  </blockquote>
+</details>
+<be>
 
 ---
 
@@ -37,18 +49,7 @@ order: 1
 </details>
 <br>
 
-**Firm Climate Investment: A Glass Half-Full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](#){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
 
-> Draft coming soon!
-
-<details>
-  <summary>Abstract</summary>
-  <br>
-  <blockquote>
-    We analyze the importance of climate-related investment using a large economy-wide survey of UK firms. Over half of firms expect climate change to have a positive impact on their investment in the medium term, with around a quarter expecting a large impact of over 10%. Around two-thirds of these investments are expected to be in addition to normal capital expenditure, with some firms investing less elsewhere. These investments will be driven by larger firms as well as those in more energy-intensive sectors. Climate investments are expected mainly in switching to green energy sources and improving energy efficiency, and firms expect to finance these mainly using internal cash reserves. Overall, although firms are expecting to invest more resources in adapting to climate change, under reasonable assumptions, these investments are still not sufficient to meet the estimated targets implied by the UK Net Zero Pathway.
-  </blockquote>
-</details>
-<br>
 
 **Measuring Cognitive Inflation Uncertainty: FRBNY** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
