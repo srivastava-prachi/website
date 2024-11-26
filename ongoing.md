@@ -21,7 +21,8 @@ order: 1
 <br>
 
 
-**[Firm Climate Investment: A Glass Half-Full](https://www.nber.org/papers/w33081){:target="_blank"}** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](#){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
+**Firm Climate Investment: A Glass Half-Full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](#){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
+[NBER](https://www.nber.org/papers/w33081){:target="_blank"}, [VOXEU](https://t.co/WZCzA9Wolx){:target="_blank"}
 
 <details>
   <summary>Abstract</summary>
