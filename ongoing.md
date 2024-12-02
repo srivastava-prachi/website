@@ -53,7 +53,7 @@ order: 1
 
 
 
-**Measuring Cognitive Inflation Uncertainty: FRBNY** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+**The Drivers of Household Inflation Uncertainty** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
 > Draft coming soon!
 
@@ -61,7 +61,7 @@ order: 1
   <summary>Abstract</summary>
   <br>
   <blockquote>
-    This article uses the Federal Reserve Bank of New York's Survey of Consumer Expectations (FRBNY SCE) to study household cognitive inflation uncertainty. We incorporate existing literature on cognition with expectations to uncover what goes into expected inflation uncertainty. This paper uses the round-number methods to create commodity uncertainty since June 2013.
+     Applying the round-number methods proposed in \cite{binder2017measuring}, we infer an individual's cognitive uncertainty about product groups. We use the responses of individuals point expectations about...  in the NY Fed Survey of Consumers Expectation. Of these individual product groups, food prices are found to be the main driver of an individual's aggregate uncertainty about future inflation. We then show that a monetary policy is most effective at reducing food price uncertainty for both low and high-income groups. Whereas, monetary policy on gasoline price uncertainty is stronger for the low-income group.
   </blockquote>
 </details>
 <br>
