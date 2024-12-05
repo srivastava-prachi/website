@@ -38,7 +38,7 @@ order: 1
 
 # Work in Progress
 
-**Role of Inflation Uncertainty on Household Wage Growth Expectations (JMP)** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+**Role of Inflation Uncertainty on Household Wage Growth Expectations** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
 > Draft coming soon!
 
@@ -46,7 +46,7 @@ order: 1
   <summary>Abstract</summary>
   <br>
   <blockquote>
-    In this paper, we examine the heterogeneous effects of individual-level uncertainty about prices (subjective uncertainty) on wage growth expectations, using data from the FRBNY Survey of Consumer Expectations. Our analysis focuses on how the first moment (level) and second moment (uncertainty) of expected inflation influence wage expectations during uncertain times and how these effects vary across the income distribution. We employ a novel instrument constructed from survey responses to capture these dynamics. Our findings indicate that individual-level expected inflation uncertainty is positively associated with wage growth expectations. Furthermore, higher inflation uncertainty is linked to a larger increase in wage expectations among low-income households. We attribute this mechanism to the impact of inflation uncertainty on job search behavior, where greater uncertainty prompts more job searching and EE behavior, thereby driving wage growth. Consequently, inflation uncertainty may serve as an additional factor contributing to wage growth, particularly for lower-income workers.
+    In this paper, we study the heterogeneous effects of individual-level uncertainty about prices (subjective uncertainty) on individual wage growth expectations decisions using the FRBNY Survey of Consumer Expectations. We focus on the transmission of the first (level) and second moment (uncertainty) of expected inflation on the level of wage growth expectations during uncertain times and how these differ along the income distribution using a novel instrument constructed from the survey responses. We find that individual-level expected inflation uncertainty is positively correlated with wage growth expectations. Moreover, higher inflation uncertainty is linked to a greater rise in wage expectations for poorer households. We explain this observation with a novel mechanism: workers precautiously bargain for higher wages when uncertainty about inflation risks the erosion of their real wages. Thus, inflation uncertainty may be an additional driver of wage growth, especially for lower-income workers.
   </blockquote>
 </details>
 <br>
