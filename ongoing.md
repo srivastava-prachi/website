@@ -61,7 +61,8 @@ order: 1
   <summary>Abstract</summary>
   <br>
   <blockquote>
-     Applying the round-number methods proposed in \cite{binder2017measuring}, we infer an individual's cognitive uncertainty about product groups. We use the responses of individuals point expectations about...  in the NY Fed Survey of Consumers Expectation. Of these individual product groups, food prices are found to be the main driver of an individual's aggregate uncertainty about future inflation. We then show that a monetary policy is most effective at reducing food price uncertainty for both low and high-income groups. Whereas, monetary policy on gasoline price uncertainty is stronger for the low-income group.
+    Applying the round-number methods proposed in Binder (2017), we infer an individual's cognitive uncertainty about product groups. We use the responses of individuals point expectations about gasoline, food, medical, education, rent, and gold prices in the NYFed Survey of Consumers
+    Expectation. Of these individual product groups, food prices are found to be the main driver of an individual's aggregate uncertainty about future inflation. We then show that a monetary policy is most effective at reducing food price uncertainty.
   </blockquote>
 </details>
 <br>
