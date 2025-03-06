@@ -54,7 +54,7 @@ order: 1
 
 # Work in Progress
 
-**Role of Inflation Uncertainty on Household Wage Growth Expectations** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+**Inflation Uncertainty and Household Wage Growth Expectations** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
 > Draft coming soon!
 
