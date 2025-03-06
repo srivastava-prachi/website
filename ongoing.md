@@ -34,6 +34,22 @@ order: 1
 </details>
 <br>
 
+
+**The Drivers of Household Inflation Uncertainty** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
+
+>[Draft](https://github.com/srivastava-prachi/drivers_inflation_uncertainty/blob/main/EEA_Inflation_Uncertainty.pdf){:target="_blank"}
+
+<details>
+  <summary>Abstract</summary>
+  <br>
+  <blockquote>
+    Applying the round-number methods proposed in Binder (2017), we infer an individual's cognitive uncertainty about product groups. We use the responses of individuals point expectations about gasoline, food, medical, education, rent, and gold prices in the NYFed Survey of Consumers
+    Expectation. Of these individual product groups, food prices are found to be the main driver of an individual's aggregate uncertainty about future inflation. We then show that a monetary policy is most effective at reducing food price uncertainty.
+  </blockquote>
+</details>
+<br>
+
+
 ---
 
 # Work in Progress
@@ -52,19 +68,5 @@ order: 1
 <br>
 
 
-
-**The Drivers of Household Inflation Uncertainty** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
-
-> Draft coming soon!
-
-<details>
-  <summary>Abstract</summary>
-  <br>
-  <blockquote>
-    Applying the round-number methods proposed in Binder (2017), we infer an individual's cognitive uncertainty about product groups. We use the responses of individuals point expectations about gasoline, food, medical, education, rent, and gold prices in the NYFed Survey of Consumers
-    Expectation. Of these individual product groups, food prices are found to be the main driver of an individual's aggregate uncertainty about future inflation. We then show that a monetary policy is most effective at reducing food price uncertainty.
-  </blockquote>
-</details>
-<br>
 
 ---
