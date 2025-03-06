@@ -5,14 +5,12 @@ filename: teaching
 order: 3
 --- 
 
-# Teaching
-
 ## [Sciences Po](#)
 
 - **2020-21**  
   - Economy for first-year economics undergraduate students  
 
-## [University College Dublin (Jan 2021 - Present)](#)
+## [University College Dublin](#)
 
 - **2021-2022**  
   - ECON30150 – International Money & Banking  
