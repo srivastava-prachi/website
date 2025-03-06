@@ -62,10 +62,52 @@ order: 1
   <summary>Abstract</summary>
   <br>
   <blockquote>
-    In this paper, we study the heterogeneous effects of individual-level uncertainty about prices (subjective uncertainty) on individual wage growth expectations decisions using the FRBNY Survey of Consumer Expectations. We focus on the transmission of the first (level) and second moment (uncertainty) of expected inflation on the level of wage growth expectations during uncertain times and how these differ along the income distribution using a novel instrument constructed from the survey responses. We find that individual-level expected inflation uncertainty is positively correlated with wage growth expectations. Moreover, higher inflation uncertainty is linked to a greater rise in wage expectations for poorer households. We explain this observation with a novel mechanism: workers precautiously bargain for higher wages when uncertainty about inflation risks the erosion of their real wages. Thus, inflation uncertainty may be an additional driver of wage growth, especially for lower-income workers.
+    In this paper, we study the heterogeneous effects of individual-level uncertainty about prices (subjective uncertainty) on individual wage growth expectation decisions using the FRBNY Survey of Consumer Expectations. We focus on the transmission of the first (level) and second moment (uncertainty) of expected inflation on the level of wage growth expectations during uncertain times and how these differ along the income distribution using a novel instrument constructed from the survey responses. We find that individual-level expected inflation uncertainty is positively correlated with wage growth expectations. Moreover, higher inflation uncertainty is linked to a greater rise in wage expectations for poorer households. We explain this observation with a novel mechanism: workers precautiously bargain for higher wages when uncertainty about inflation risks the erosion of their real wages. Thus, inflation uncertainty may be an additional driver of wage growth, especially for lower-income workers.
   </blockquote>
 </details>
 <br>
+
+
+
+**Shedding light on economic growth: Nowcasting in Venezuela** With [Eurydice Fotopoulou](https://scholar.google.com/citations?user=hMYP6gYAAAAJ&hl=en){:target="_blank"}, [Maria Belen Sbrancia](#){:target="_blank"}
+
+> Draft coming soon!
+
+<details>
+  <summary>Abstract</summary>
+  <br>
+  <blockquote>
+   Economic forecasting in Venezuela presents significant challenges due to the discontinuation of key macroeconomic data publication by the Banco Central de Venezuela since Q1 2019. The economy has experienced a sharp and prolonged contraction, particularly between 2013 and 2020, shrinking to a quarter of its 2012 size. The absence of reliable data on fundamental economic indicators—such as real GDP, trade flows, and manufacturing activity—combined with structural shifts in the economy, has severely constrained the ability to conduct accurate macroeconomic analysis and forecasting.
+This paper explores alternative approaches to addressing these data limitations by integrating traditional and non-traditional data sources with machine learning and econometric techniques to estimate real GDP. Specifically, it evaluates the applicability of Random Forest, Stacking methods, and the Dynamic Factor Model in the case of Venezuela. The analysis assesses the advantages and limitations of these methodologies, highlighting their potential to bridge critical data gaps and enhance economic forecasting in environments where direct data collection is limited. These approaches may offer broader applicability for forecasting in data-scarce economies, informing policy design and economic decision-making in similarly constrained contexts.
+  </blockquote>
+</details>
+<br>
+
+**Media Sentiments, Politics and Expectations: Survey data from Fed Cleveland** With [Constantin Burgi](https://sites.google.com/view/cburgi/home){:target="_blank"}, [Edward S. Knotek II](#){:target="_blank"}
+
+> Draft coming soon!
+
+<details>
+  <summary>Abstract</summary>
+  <br>
+  <blockquote>
+  </blockquote>
+</details>
+<br>
+
+**Subjective Household Philips Curve: Survey data from ECB** With [Anushka Mitra](https://sites.google.com/view/cburgi/home){:target="_blank"}, [Einar Paz](#){:target="_blank"}
+
+> Draft coming soon!
+
+<details>
+  <summary>Abstract</summary>
+  <br>
+  <blockquote>
+  </blockquote>
+</details>
+<br>
+
+
 
 
 
