@@ -15,8 +15,6 @@ I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:
 
 I am a co-organizer of the [Young Irish Economics Seminar Series (YIESS)](https://sites.google.com/view/yiess){:target="_blank"}. 
 
-I visited the Department of Economics, University of Texas, Austin USA (Sep-Dec,2024)
-
 ## Resume
 
 You can download my [CV](./documents/Prachi_Srivastava_CV.pdf){:target="_blank} here.
@@ -30,6 +28,7 @@ You can download my [CV](./documents/Prachi_Srivastava_CV.pdf){:target="_blank} 
 
 
 ## Visitings
+- Visited the [Department of Economics](https://liberalarts.utexas.edu/economics/){:target="_blank"}, University of Texas, Austin, USA (Sep-Dec,2024) by [Oliver Pfäuti](https://sites.google.com/view/pfaeuti/){:target="_blank"}.
 - Visited the [IMF](https://www.imf.org/en/Home){:target="_blank"} as a Ph.D. intern (Jun'24-Sep'23).
 - Visited the [Bank of England](https://www.bankofengland.co.uk/){:target="_blank"} as a Ph.D. intern (Sep'23-Dec'23).
 - Visited the [Bank for International Settlements](https://www.bis.org/){:target="_blank"} as a PhD visiting fellow (April 20203 - July 2023)
