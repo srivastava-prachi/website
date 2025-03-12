@@ -37,7 +37,7 @@ order: 1
 
 **The Drivers of Household Inflation Uncertainty** With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.
 
->[Draft](https://github.com/srivastava-prachi/drivers_inflation_uncertainty/blob/main/Prachi_Srivastava_Drivers_Inflation_uncertainty.pdf){:target="_blank"}
+>[Draft]([https://github.com/srivastava-prachi/drivers_inflation_uncertainty/blob/main/Prachi_Srivastava_Drivers_Inflation_uncertainty.pdf](https://www.dropbox.com/scl/fi/wxp6kppwp4kyud0lpfh1r/Drivers_of_Household_Inflation_Uncertainty.pdf?rlkey=8zafc6rmd0cia6byxsehb070o&dl=0)){:target="_blank"}
 
 <details>
   <summary>Abstract</summary>
