@@ -75,6 +75,7 @@ order: 1
   <summary>Abstract</summary>
   <br>
   <blockquote>
+     This paper investigates which components of the UK’s Consumer Price Index (CPI) disproportionately shape both consumers’ and professional forecasters’ perceived and one-year-ahead inflation expectations. By leveraging a highly granular breakdown of over 200 CPI categories, we aim to understand how specific price changes—rather than the aggregate index—drive inflation beliefs across heterogeneous population groups. We merge detailed price data from the UK’s Living Costs and Food Survey with inflation expectation data from the Bank of England’s Inflation Attitudes Survey, creating a rich panel that allows us to trace how individual components of the consumption basket influence inflation perceptions. Our empirical strategy employs a two-stage machine learning framework. In the first stage, we use Random Forests and LASSO for feature selection to identify which CPI components are most predictive of expectations. In the second stage, we use these features to forecast inflation beliefs based on the selected features. Our findings show that a small subset of salient and frequently purchased items plays a disproportionately large role in shaping inflation expectations—particularly among lower-income households. These insights not only improve our understanding of expectation formation but also enhance the forecasting performance across different demographic groups.
   </blockquote>
 </details>
 <br>
