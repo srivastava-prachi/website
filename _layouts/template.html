@@ -6,24 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} — Prachi Srivastava</title>
   {% seo %}
-  <link rel="stylesheet"
-        href="{{ "/assets/css/style.css?v=" |
-                  append: site.github.build_revision |
-                  relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 
 <body style="background-color: #FEFEFC; color: #0B1C39;">
   <div class="wrapper">
 
-    <!-- Top navigation (always shows) -->
+    <!-- Top navigation -->
     <nav class="top-nav">
       <ul>
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %}
           <li>
             <a
-              class="{% if page.url == node.url %}active{% endif %}"
-              href="{{ site.github.url }}/{{ node.filename }}">
+              href="{{ site.github.url }}/{{ node.filename }}"
+              class="{% if page.url == node.url %}active{% endif %}">
               {{ node.title }}
             </a>
           </li>
@@ -34,63 +33,58 @@
     <!-- Header + photo only on Home page -->
     {% if page.url == "/" or page.url == "/index.html" %}
       <header>
+        <!-- Name top‐left, aligned with nav -->
         <h2><strong>Prachi Srivastava</strong></h2>
+
+        <!-- Rectangular photo -->
         <img
           src="{{ "/images/profile_pic.jpeg" | relative_url }}"
-          alt="Prachi Srivastava">
-        <p>
-          I’m an Economics Ph.D. candidate at
-          <a href="https://www.ucd.ie/economics/phd/" target="_blank"
-             style="color:#004594; font-weight:bold;">
-            University College Dublin (UCD)
+          alt="Prachi Srivastava"
+          style="display:block;
+                 max-width:240px;
+                 width:100%;
+                 height:auto;
+                 margin-bottom:1rem;
+                 border-radius:0;">
+
+        <!-- Only email addresses -->
+        <p><a href="mailto:prachi.srivastava@ucdconnect.ie" style="color:#004594; font-weight:bold;">
+          prachi.srivastava@ucdconnect.ie
+        </a></p>
+        <p><a href="mailto:prachi.jmc13@gmail.com" style="color:#004594; font-weight:bold;">
+          prachi.jmc13@gmail.com
+        </a></p>
+
+        <!-- X (formerly Twitter) link -->
+        <p style="margin-top:1rem;">
+          <a href="https://x.com/PrachiSpace9"
+             target="_blank"
+             style="color:#004594; font-weight:bold; font-size:1rem;">
+            X / @PrachiSpace9
           </a>
-          under the supervision of
-          <a href="https://karlwhelan.com/blog/" target="_blank"
-             style="color:#004594; font-weight:bold;">
-            Karl Whelan
-          </a>
-          and co-supervised by
-          <a href="https://sites.google.com/view/cburgi/home" target="_blank"
-             style="color:#004594; font-weight:bold;">
-            Constantin Bürgi
-          </a>.
         </p>
 
-        <small>prachi.srivastava@ucdconnect.ie</small><br>
-        <small>prachi.jmc13@gmail.com</small><br><br>
-
-        <img src="{{ "/images/twitter-icon.png" | relative_url }}"
-             alt="Twitter" height="20" width="20">
-        <a href="https://twitter.com/PrachiSpace9" target="_blank"
-           style="color:#004594;">
-          Twitter
-        </a><br>
-
-        <img src="{{ "/images/google-scholar-icon.svg" | relative_url }}"
-             alt="Google Scholar" height="20" width="20">
-        <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ"
-           target="_blank" style="color:#004594;">
-          Google Scholar
-        </a><br><br>
-
-        <small>
-          Hosted on GitHub Pages — Theme by
-          <a href="https://github.com/orderedlist" style="color:#004594;">
-            orderedlist
+        <!-- Google Scholar link -->
+        <p>
+          <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ"
+             target="_blank"
+             style="color:#004594; font-weight:bold; font-size:1rem;">
+            Google Scholar
           </a>
-        </small>
+        </p>
       </header>
     {% endif %}
 
-    <!-- Main page content -->
+    <!-- Main content -->
     <section>
       {{ content }}
     </section>
+
   </div>
 
-  <!-- Inline CSS for nav + header image -->
+  <!-- Inline CSS adjustments -->
   <style>
-    /* ————— Top navigation styling ————— */
+    /* Top navigation */
     .top-nav {
       position: fixed;
       top: 20px;
@@ -103,7 +97,9 @@
       margin: 0;
       padding: 0;
     }
-    .top-nav ul li { margin-left: 15px; }
+    .top-nav ul li {
+      margin-left: 15px;
+    }
     .top-nav ul li a {
       text-decoration: none;
       color: #004594;
@@ -116,17 +112,19 @@
       color: #002B66;
     }
 
-    /* ————— Constrain header profile image ————— */
+    /* Home page header positioning */
+    header {
+      position: fixed;
+      top: 20px;
+      left: 40px;
+      width: 240px; /* match your photo width */
+    }
+    /* Ensure the photo stays rectangular */
     header img {
-      display: block;
-      max-width: 180px;
-      height: auto;
-      margin-bottom: 1rem;
-      border-radius: 50%;
+      border-radius: 0;
     }
   </style>
 
-  <!-- Google Analytics (optional) -->
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   {% if site.google_analytics %}
   <script>
