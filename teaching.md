@@ -2,7 +2,7 @@
 title: Teaching
 layout: template
 filename: teaching
-order: 3
+order: 2
 --- 
 
 ## [Sciences Po](#)
