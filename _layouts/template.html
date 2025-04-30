@@ -1,139 +1,92 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} — Prachi Srivastava</title>
-    {% seo %}
-    <link rel="stylesheet"
-          href="{{ "/assets/css/style.css?v=" |
-                    append: site.github.build_revision |
-                    relative_url }}">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} — {{ site.title }}</title>
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/jekyll-theme-minimal.css" | relative_url }}" />
+</head>
 
-  <body style="background-color: #FEFEFC; color: #0B1C39;">
-    <div class="wrapper">
+<body class="{{ page.page_class | default: "" }}">
+  <div class="wrapper">
 
-      <!-- top navigation (always) -->
-      <nav class="top-nav">
-        <ul>
-          {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for node in sorted_pages %}
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+      <ul>
+        <!-- Home always first -->
+        <li>
+          <a href="{{ "/" | relative_url }}"
+             class="{% if page.page_class == 'home' %}active{% endif %}">
+            Home
+          </a>
+        </li>
+        <!-- Other pages in order -->
+        {% assign sorted = site.pages | sort: "order" %}
+        {% for node in sorted %}
+          {% if node.page_class and node.page_class != 'home' %}
             <li>
-              <a
-                class="{% if page.url == node.url %}active{% endif %}"
-                href="{{ site.github.url }}/{{ node.filename }}">
+              <a href="{{ node.url | relative_url }}"
+                 class="{% if page.url == node.url %}active{% endif %}">
                 {{ node.title }}
               </a>
             </li>
-          {% endfor %}
-        </ul>
-      </nav>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
 
-      <!-- only on Home (index.html) -->
-      {% if page.url == "/" or page.url == "/index.html" %}
-        <header>
-          <h2><strong>Prachi Srivastava</strong></h2>
-          <img src="{{ "/images/profile_pic.jpeg" | relative_url }}"
-               alt="Prachi Srivastava">
+    <!-- Fixed Sidebar -->
+    <header>
+      <h2><strong>Prachi Srivastava</strong></h2>
+      <img src="{{ "/images/profile_pic.jpeg" | relative_url }}" alt="Prachi Srivastava" />
 
-          <p>
-            I’m an Economics Ph.D. candidate at
-            <a href="https://www.ucd.ie/economics/phd/"
-               target="_blank"
-               style="color:#004594; font-weight:bold;">
-              University College Dublin (UCD)
-            </a>
-            under the supervision of
-            <a href="https://karlwhelan.com/blog/"
-               target="_blank"
-               style="color:#004594; font-weight:bold;">
-              Karl Whelan
-            </a>
-            and co-supervised by
-            <a href="https://sites.google.com/view/cburgi/home"
-               target="_blank"
-               style="color:#004594; font-weight:bold;">
-              Constantin Bürgi
-            </a>.
-          </p>
+      <p>
+        I’m an Economics Ph.D. candidate at 
+        <a href="https://www.ucd.ie/economics/" target="_blank">
+          <strong>University College Dublin (UCD)</strong>
+        </a>
+        under the supervision of Karl Whelan and co-supervised by Constantin Bürgi.
+      </p>
 
-          <small>prachi.srivastava@ucdconnect.ie</small><br>
-          <small>prachi.jmc13@gmail.com</small><br><br>
+      <small>prachi.srivastava@ucdconnect.ie</small><br />
+      <small>prachi.jmc13@gmail.com</small><br /><br />
 
-          <!-- social icons -->
-          <img src="{{ "/images/twitter-icon.png" | relative_url }}"
-               alt="Twitter" height="20" width="20">
-          <a href="https://twitter.com/PrachiSpace9"
-             target="_blank"
-             style="color:#004594;">
-            Twitter
-          </a><br>
+      <a href="https://twitter.com/PrachiSpace9" target="_blank">Twitter</a><br />
+      <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" target="_blank">
+        Google Scholar
+      </a><br /><br />
 
-          <img src="{{ "/images/google-scholar-icon.svg" | relative_url }}"
-               alt="Google Scholar" height="20" width="20">
-          <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ"
-             target="_blank"
-             style="color:#004594;">
-            Google Scholar
-          </a><br><br>
+      <small>
+        Hosted on GitHub Pages &mdash; Theme by 
+        <a href="https://github.com/orderedlist">orderedlist</a>
+      </small>
+    </header>
 
-          <small>
-            Hosted on GitHub Pages — Theme by
-            <a href="https://github.com/orderedlist"
-               style="color:#004594;">
-              orderedlist
-            </a>
-          </small>
-        </header>
-      {% endif %}
+    <!-- Main content area -->
+    <section>
+      {{ content }}
+    </section>
 
-      <!-- main page content -->
-      <section>
-        {{ content }}
-      </section>
-    </div>
+  </div>
 
-    <!-- inline nav styling -->
-    <style>
-      .top-nav {
-        position: fixed;
-        top: 20px;
-        right: 40px;
-        z-index: 1000;
-      }
-      .top-nav ul {
-        display: flex;
-        list-style: none;
-        margin: 0; padding: 0;
-      }
-      .top-nav ul li { margin-left: 15px; }
-      .top-nav ul li a {
-        text-decoration: none;
-        color: #004594;
-        font-weight: bold;
-        font-size: 18px;
-      }
-      .top-nav ul li a:hover,
-      .top-nav ul li a.active {
-        text-decoration: underline;
-        color: #002B66;
-      }
-    </style>
-
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
-          a=s.createElement(o),m=s.getElementsByTagName(o)[0];
-          a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script',
-           'https://www.google-analytics.com/analytics.js','ga');
-        ga('create','{{ site.google_analytics }}','auto');
-        ga('send','pageview');
-      </script>
-    {% endif %}
-  </body>
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  {% if site.google_analytics %}
+  <script>
+    (function(i,s,o,g,r,a,m){
+      i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+      a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+      a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script',
+      'https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
 </html>
