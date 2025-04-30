@@ -2,7 +2,7 @@
 title: Publications
 layout: template
 filename: publications
-order: 2
+order: 
 ---
 
 ---
