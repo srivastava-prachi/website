@@ -112,10 +112,26 @@ header {
   /* add margin if you like */
 }
 
+/* — only on Home — */
 body.home header {
-  margin-left: 50px;  /* leaves some space between the sidebar and the photo */
+  /* move the entire header (and thus the picture) in from the left */
+  left: 80px !important;
 }
 
+body.home header img {
+  /* give the image some breathing room on its right edge */
+  margin-right: 20px;
+}
+
+body.home section {
+  /* push your "About Me" content right of the picture */
+  margin-left: calc(80px + 180px + 20px) !important;
+  /* 
+    = header left offset (80px)
+    + max-width of img (180px)
+    + the img’s right margin (20px)
+  */
+}
 /* Download buttons under header */
 ul.downloads {
   list-style: none;
