@@ -1,193 +1,177 @@
-
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- RESPONSIVE VIEWPORT -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- RESPONSIVE VIEWPORT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Prachi Srivastava</title>
+  {% seo %}
 
-    <title>{{ page.title }} — Prachi Srivastava</title>
-    {% seo %}
+  <!-- main site stylesheet -->
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <!-- Font Awesome just for fallback, but we’re using your SVG icons below -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-papLm7a+PJy3/y+Me7VZ4cjWmZV5mXil3e1djFb7K5mIv2x+fyM9W9rOJ/12t+nIDF6Rhb8nQM0Dtp8jFZ7Zxw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
 
-    <!-- your main stylesheet -->
-    <link
-      rel="stylesheet"
-      href="{{ "/assets/css/style.css?v=" |
-                append: site.github.build_revision |
-                relative_url }}"
-    />
+<body style="background-color: #FEFEFC; color: #0B1C39;">
+  <div class="wrapper">
 
-    <!-- FONT AWESOME (for envelope, phone, X, cap icons) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-papLm7a+PJy3/y+Me7VZ4cjWmZV5mXil3e1djFb7K5mIv2x+fyM9W9rOJ/12t+nIDF6Rhb8nQM0Dtp8jFZ7Zxw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+    <!-- TOP NAVIGATION -->
+    <nav class="top-nav">
+      <ul>
+        {% assign sorted_pages = site.pages | sort: "order" %}
+        {% for node in sorted_pages %}
+          <li>
+            <a
+              class="{% if page.url == node.url %}active{% endif %}"
+              href="{{ site.github.url }}/{{ node.filename }}">
+              {{ node.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
 
-  <body style="background-color: #FEFEFC; color: #0B1C39;">
-    <div class="wrapper">
-      <!-- TOP NAV (always) -->
-      <nav class="top-nav">
-        <ul>
-          {% assign sorted_pages = site.pages | sort: "order" %}
-          {% for node in sorted_pages %}
-            <li>
-              <a
-                class="{% if page.url == node.url %}active{% endif %}"
-                href="{{ site.github.url }}/{{ node.filename }}"
-                >{{ node.title }}</a
-              >
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
+    <!-- HEADER + PHOTO + CONTACT ICONS (only on Home) -->
+    {% if page.url == "/" or page.url == "/index.html" %}
+      <header>
+        <h2><strong>Prachi Srivastava</strong></h2>
+        <img
+          src="{{ '/images/profile_pic.jpeg' | relative_url }}"
+          alt="Prachi Srivastava">
 
-      <!-- HEADER + PHOTO + CONTACT ICONS (ONLY on Home) -->
-      {% if page.url == "/" or page.url == "/index.html" %}
-        <header>
-          <h2><strong>Prachi Srivastava</strong></h2>
-
-          <img
-            src="{{ "/images/profile_pic.jpeg" | relative_url }}"
-            alt="Prachi Srivastava"
-          />
-
-          <div class="contact-icons">
-            <p>
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:prachi.srivastava@ucdconnect.ie">
-                prachi.srivastava@ucdconnect.ie
-              </a>
-            </p>
-            <p>
-              <i class="fas fa-envelope"></i>
-              <a href="mailto:prachi.jmc13@gmail.com">
-                prachi.jmc13@gmail.com
-              </a>
-            </p>
-            <p>
-              <i class="fab fa-twitter"></i>
-              <a
-                href="https://twitter.com/PrachiSpace9"
-                target="_blank"
-                >@PrachiSpace9</a
-              >
-            </p>
-            <p>
-              <i class="fas fa-graduation-cap"></i>
-              <a
-                href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ"
-                target="_blank"
-                >Google Scholar</a
-              >
-            </p>
-          </div>
-        </header>
-      {% endif %}
-
-      <!-- MAIN CONTENT -->
-      <section>
-        {{ content }}
-      </section>
-    </div>
-
-    <!-- INLINE STYLES FOR NAV / HEADER IMG / CONTACT ICONS -->
-    <style>
-      /* —— TOP NAV —— */
-      .top-nav {
-        position: fixed;
-        top: 20px;
-        right: 40px;
-        z-index: 1000;
-      }
-      .top-nav ul {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-      .top-nav li {
-        margin-left: 15px;
-      }
-      .top-nav a {
-        text-decoration: none;
-        color: #004594;
-        font-weight: bold;
-        font-size: 18px;
-      }
-      .top-nav a:hover,
-      .top-nav a.active {
-        text-decoration: underline;
-        color: #002b66;
-      }
-
-      /* —— HEADER IMAGE —— */
-      header img {
-        display: block;
-        max-width: 180px;
-        height: auto;
-        margin-bottom: 1rem;
-        border-radius: 6px; /* slightly rounded rectangle */
-      }
-
-      /* —— CONTACT ICONS —— */
-      .contact-icons {
-        margin-top: 1rem;
-        font-size: 1rem;
-        line-height: 1.4;
-      }
-      .contact-icons i {
-        margin-right: 0.5em;
-        color: #004594;
-      }
-      .contact-icons p {
-        margin: 0.5em 0;
-      }
-
-      /* —— RESPONSIVE STACKING for mobile —— */
-      @media screen and (max-width: 720px) {
-        .top-nav,
-        header,
-        section {
-          position: static !important;
-          width: auto !important;
-          margin: 0 !important;
-          padding: 10px !important;
-        }
-        .top-nav ul {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-        .top-nav li + li {
-          margin-top: 10px;
-        }
-      }
-    </style>
-
-    <!-- optionally your scale.fix or GA -->
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-      <script>
-        ;(function(i,s,o,g,r,a,m){
-          i["GoogleAnalyticsObject"]=r;
-          i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments);
-          };
-          i[r].l=1*new Date();
-          a=s.createElement(o);
-          m=s.getElementsByTagName(o)[0];
-          a.async=1;
-          a.src=g;
-          m.parentNode.insertBefore(a,m);
-        })(window,document,"script","https://www.google-analytics.com/analytics.js","ga");
-        ga("create","{{ site.google_analytics }}","auto");
-        ga("send","pageview");
-      </script>
+        <div class="contact-icons">
+          <!-- first e-mail -->
+          <a href="mailto:prachi.srivastava@ucdconnect.ie">
+            <span class="icon icon--email">
+              {% include icon-envelope.svg %}
+            </span>
+          </a>
+          <!-- second e-mail -->
+          <a href="mailto:prachi.jmc13@gmail.com">
+            <span class="icon icon--email">
+              {% include icon-envelope.svg %}
+            </span>
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/PrachiSpace9" target="_blank">
+            <span class="icon icon--twitter">
+              {% include icon-twitter.svg %}
+            </span>
+          </a>
+          <!-- Google Scholar -->
+          <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" target="_blank">
+            <span class="icon icon-link icon--google-scholar">
+              {% include icon-google-scholar.svg %}
+            </span>
+          </a>
+        </div>
+      </header>
     {% endif %}
 
-  </body>
+    <!-- MAIN CONTENT -->
+    <section>
+      {{ content }}
+    </section>
+  </div>
+
+  <!-- INLINE STYLES FOR NAV + HEADER IMG + CONTACT ICONS -->
+  <style>
+    /* ———— TOP NAV ———— */
+    .top-nav {
+      position: fixed;
+      top: 20px;
+      right: 40px;
+      z-index: 1000;
+    }
+    .top-nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0; padding: 0;
+    }
+    .top-nav li {
+      margin-left: 15px;
+    }
+    .top-nav a {
+      text-decoration: none;
+      color: #004594;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .top-nav a:hover,
+    .top-nav a.active {
+      text-decoration: underline;
+      color: #002b66;
+    }
+
+    /* ———— HEADER IMAGE ———— */
+    header img {
+      display: block;
+      max-width: 180px;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+    }
+
+    /* ———— CONTACT ICONS ———— */
+    .contact-icons {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .contact-icons a {
+      display: inline-flex;
+      align-items: center;
+    }
+    .contact-icons .icon {
+      width: 1em;
+      height: 1em;
+      margin-right: 0.4em;
+      fill: #004594;
+    }
+
+    /* ———— RESPONSIVE STACKING ———— */
+    @media screen and (max-width: 720px) {
+      .top-nav, header, section {
+        position: static !important;
+        width: auto !important;
+        margin: 0 !important;
+        padding: 10px !important;
+      }
+      .top-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .top-nav li + li {
+        margin-top: 10px;
+      }
+      .contact-icons {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+
+  <!-- optionally: scale.fix.js or Google Analytics snippet -->
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+      a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+      a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script',
+         'https://www.google-analytics.com/analytics.js','ga');
+      ga('create','{{ site.google_analytics }}','auto');
+      ga('send','pageview');
+    </script>
+  {% endif %}
+</body>
 </html>
