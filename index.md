@@ -1,5 +1,5 @@
 ---
-title: About
+title: Home
 layout: template
 filename: index
 order: 0
