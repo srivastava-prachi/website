@@ -112,10 +112,9 @@ header {
   /* add margin if you like */
 }
 
-body.home header {
-  left: 100px !important;  /* or whatever value you like */
+body.home header img {
+  margin-left: 100px;  /* leaves some space between the sidebar and the photo */
 }
-
 
 /* Download buttons under header */
 ul.downloads {
@@ -183,7 +182,7 @@ ul.downloads {
 ───────────────────────────────────────────────────────────────────────────── */
 section {
   /* push it past your fixed-width sidebar/header: */
-  margin-left: -200px; 
+  margin-left: -300px; 
   width: auto;
   float: none;
   padding-bottom: 50px;
