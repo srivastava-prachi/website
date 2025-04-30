@@ -21,9 +21,10 @@
       <ul>
       {% assign sorted_pages = site.pages | sort:"order" %}
       {% for node in sorted_pages %}
-        {% unless node.title == "About" %}
-          <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">{{node.title}}</a></li>
-        {% endunless %}
+          <li>
+            <a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">{{node.title}}
+            </a>
+          </li>
       {% endfor %}
       </ul>
     </nav>
