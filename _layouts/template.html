@@ -1,37 +1,38 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- RESPONSIVE VIEWPORT -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} — Prachi Srivastava</title>
   {% seo %}
 
-  <!-- main site stylesheet -->
+  <!-- your main stylesheet -->
   <link
     rel="stylesheet"
-    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <!-- Font Awesome just for fallback, but we’re using your SVG icons below -->
+    href="{{ "/assets/css/style.css?v=" |
+              append: site.github.build_revision |
+              relative_url }}"
+  />
+
+  <!-- Academicons (for email, Twitter, Google Scholar, etc.) -->
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-papLm7a+PJy3/y+Me7VZ4cjWmZV5mXil3e1djFb7K5mIv2x+fyM9W9rOJ/12t+nIDF6Rhb8nQM0Dtp8jFZ7Zxw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
+    href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css"
+  />
 </head>
 
 <body style="background-color: #FEFEFC; color: #0B1C39;">
   <div class="wrapper">
 
-    <!-- TOP NAVIGATION -->
+    <!-- Top nav (always visible) -->
     <nav class="top-nav">
       <ul>
         {% assign sorted_pages = site.pages | sort: "order" %}
         {% for node in sorted_pages %}
           <li>
-            <a
-              class="{% if page.url == node.url %}active{% endif %}"
-              href="{{ site.github.url }}/{{ node.filename }}">
+            <a class="{% if page.url == node.url %}active{% endif %}"
+               href="{{ site.github.url }}/{{ node.filename }}">
               {{ node.title }}
             </a>
           </li>
@@ -39,66 +40,66 @@
       </ul>
     </nav>
 
-    <!-- HEADER + PHOTO + CONTACT ICONS (only on Home) -->
+    <!-- Header + contact icons (only on Home) -->
     {% if page.url == "/" or page.url == "/index.html" %}
       <header>
         <h2><strong>Prachi Srivastava</strong></h2>
+
         <img
-          src="{{ '/images/profile_pic.jpeg' | relative_url }}"
-          alt="Prachi Srivastava">
+          src="{{ "/images/profile_pic.jpeg" | relative_url }}"
+          alt="Prachi Srivastava"
+          style="max-width:180px; border-radius:6px; margin-bottom:1rem;"
+        />
 
         <div class="contact-icons">
-          <!-- first e-mail -->
-          <a href="mailto:prachi.srivastava@ucdconnect.ie">
-            <span class="icon icon--email">
-              {% include icon-envelope.svg %}
-            </span>
-          </a>
-          <!-- second e-mail -->
-          <a href="mailto:prachi.jmc13@gmail.com">
-            <span class="icon icon--email">
-              {% include icon-envelope.svg %}
-            </span>
-          </a>
+          <!-- envelope icon + email -->
+          <p>
+            <i class="ai ai-envelope"></i>
+            <a href="mailto:prachi.srivastava@ucdconnect.ie">
+              prachi.srivastava@ucdconnect.ie
+            </a>
+          </p>
+          <p>
+            <i class="ai ai-envelope"></i>
+            <a href="mailto:prachi.jmc13@gmail.com">
+              prachi.jmc13@gmail.com
+            </a>
+          </p>
+
           <!-- Twitter -->
-          <a href="https://twitter.com/PrachiSpace9" target="_blank">
-            <span class="icon icon--twitter">
-              {% include icon-twitter.svg %}
-            </span>
-          </a>
+          <p>
+            <i class="ai ai-twitter-square"></i>
+            <a href="https://twitter.com/PrachiSpace9" target="_blank">
+              @PrachiSpace9
+            </a>
+          </p>
+
           <!-- Google Scholar -->
-          <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" target="_blank">
-            <span class="icon icon-link icon--google-scholar">
-              {% include icon-google-scholar.svg %}
-            </span>
-          </a>
+          <p>
+            <i class="ai ai-google-scholar-square"></i>
+            <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ"
+               target="_blank">
+              Google Scholar
+            </a>
+          </p>
         </div>
       </header>
     {% endif %}
 
-    <!-- MAIN CONTENT -->
+    <!-- Main content -->
     <section>
       {{ content }}
     </section>
   </div>
 
-  <!-- INLINE STYLES FOR NAV + HEADER IMG + CONTACT ICONS -->
+  <!-- Inline tweaks for nav & icons -->
   <style>
-    /* ———— TOP NAV ———— */
     .top-nav {
       position: fixed;
-      top: 20px;
-      right: 40px;
-      z-index: 1000;
+      top: 20px; right: 40px; z-index: 1000;
     }
-    .top-nav ul {
-      display: flex;
-      list-style: none;
-      margin: 0; padding: 0;
-    }
-    .top-nav li {
-      margin-left: 15px;
-    }
+    .top-nav ul { display: flex; list-style: none; margin:0; padding:0; }
+    .top-nav li { margin-left: 15px; }
     .top-nav a {
       text-decoration: none;
       color: #004594;
@@ -111,67 +112,29 @@
       color: #002b66;
     }
 
-    /* ———— HEADER IMAGE ———— */
-    header img {
-      display: block;
-      max-width: 180px;
-      height: auto;
-      margin-bottom: 1rem;
-      border-radius: 6px;
-    }
-
-    /* ———— CONTACT ICONS ———— */
     .contact-icons {
       margin-top: 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
+      line-height: 1.4;
+      font-size: 1rem;
     }
-    .contact-icons a {
-      display: inline-flex;
-      align-items: center;
+    .contact-icons i {
+      margin-right: 0.5em;
+      color: #004594;
+      vertical-align: middle;
     }
-    .contact-icons .icon {
-      width: 1em;
-      height: 1em;
-      margin-right: 0.4em;
-      fill: #004594;
+    .contact-icons p {
+      margin: 0.4em 0;
     }
 
-    /* ———— RESPONSIVE STACKING ———— */
     @media screen and (max-width: 720px) {
       .top-nav, header, section {
         position: static !important;
-        width: auto !important;
         margin: 0 !important;
         padding: 10px !important;
       }
-      .top-nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-      .top-nav li + li {
-        margin-top: 10px;
-      }
-      .contact-icons {
-        justify-content: flex-start;
-      }
+      .top-nav ul { flex-direction: column; align-items: flex-start; }
+      .top-nav li + li { margin-top: 10px; }
     }
   </style>
-
-  <!-- optionally: scale.fix.js or Google Analytics snippet -->
-  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-  {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
-      a=s.createElement(o),m=s.getElementsByTagName(o)[0];
-      a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script',
-         'https://www.google-analytics.com/analytics.js','ga');
-      ga('create','{{ site.google_analytics }}','auto');
-      ga('send','pageview');
-    </script>
-  {% endif %}
 </body>
 </html>
