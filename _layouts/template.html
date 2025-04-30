@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=.9">
   <title>Prachi Srivastava</title>
-  
+
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   <!--[if lt IE 9]>
@@ -13,20 +13,18 @@
   <![endif]-->
 </head>
 
-<body style="background-color: #FFFAF0;">
+<body style="background-color: #FEFEFC; color: #004594;">
   <div class="wrapper">
-    
+
     <!-- Navigation Bar -->
     <nav class="top-nav">
       <ul>
-        {% assign sorted_pages = site.pages | sort:"order" %}
-        {% for node in sorted_pages %}
-          <li>
-            <a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">
-              {{ node.title }}
-            </a>
-          </li>
-        {% endfor %}
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for node in sorted_pages %}
+        {% unless node.title == "About" %}
+          <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">{{node.title}}</a></li>
+        {% endunless %}
+      {% endfor %}
       </ul>
     </nav>
 
@@ -36,20 +34,20 @@
       <img src="images/profile_pic.jpeg">
 
       <p>
-        <a href="https://www.ucd.ie/economics/" target="_blank">PhD Candidate in Economics at University College Dublin</a>
+        <a href="https://www.ucd.ie/economics/" target="_blank" style="color: #004594;">PhD Candidate in Economics at University College Dublin</a>
       </p>
-      
+
       <small>prachi.srivastava@ucdconnect.ie</small><br>
       <small>prachi.jmc13@gmail.com</small><br><br>
 
       <img src="https://www.pngfind.com/pngs/m/110-1102328_iconos-de-redes-sociales-png-sebtec-logo-twitter.png" height="20" width="20">
-      <a href="https://twitter.com/PrachiSpace9" target="_blank" style="color: #CD5C5C;">Twitter</a><br>
+      <a href="https://twitter.com/PrachiSpace9" target="_blank" style="color: #004594;">Twitter</a><br>
 
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" height="20" width="20">
-      <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" style="color: #CD5C5C;" target="_blank">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" target="_blank" style="color: #004594;">Google Scholar</a>
 
       <br><br>
-      <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
+      <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" style="color: #004594;">orderedlist</a></small>
 
       {% if site.show_downloads %}
         <ul class="downloads">
@@ -66,7 +64,7 @@
 
   </div>
 
-  <!-- Top Nav CSS -->
+  <!-- Navigation Style -->
   <style>
     .top-nav {
       position: fixed;
@@ -88,14 +86,15 @@
 
     .top-nav ul li a {
       text-decoration: none;
-      color: #0B1C39; /* Navy Blue */
+      color: #004594;
       font-weight: bold;
+      font-size: 16px;
     }
 
     .top-nav ul li a:hover,
     .top-nav ul li a.active {
       text-decoration: underline;
-      color: #003366; /* Darker Navy */
+      color: #002B66; /* Darker variation */
     }
   </style>
 
