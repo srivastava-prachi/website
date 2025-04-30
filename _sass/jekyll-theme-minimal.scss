@@ -108,7 +108,7 @@ header {
   position: fixed;
   top: 50px;
   left: 50px;
-  width: 270px;
+  width: 200px;
   /* add margin if you like */
 }
 
@@ -178,7 +178,7 @@ ul.downloads {
 ───────────────────────────────────────────────────────────────────────────── */
 section {
   /* push it past your fixed-width sidebar/header: */
-  margin-left: -5px; 
+  margin-left: -100px; 
   width: auto;
   float: none;
   padding-bottom: 50px;
