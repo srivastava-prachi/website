@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
   <title>Prachi Srivastava</title>
 
   {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <!--[if lt IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -19,13 +19,14 @@
     <!-- Navigation Bar -->
     <nav class="top-nav">
       <ul>
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for node in sorted_pages %}
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for node in sorted_pages %}
           <li>
-            <a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">{{node.title}}
+            <a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{ node.filename }}">
+              {{ node.title }}
             </a>
           </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
     </nav>
 
@@ -35,11 +36,13 @@
       <img src="images/profile_pic.jpeg">
 
       <p>
-        <a href="https://www.ucd.ie/economics/" target="_blank" style="color: #004594;">PhD Candidate in Economics at University College Dublin</a>
+        <a href="https://www.ucd.ie/economics/" target="_blank" style="color: #004594; font-weight: bold;">
+          PhD Candidate in Economics at University College Dublin
+        </a>
       </p>
 
-      <small>prachi.srivastava@ucdconnect.ie</small><br>
-      <small>prachi.jmc13@gmail.com</small><br><br>
+      <small style="color: black;">prachi.srivastava@ucdconnect.ie</small><br>
+      <small style="color: black;">prachi.jmc13@gmail.com</small><br><br>
 
       <img src="https://www.pngfind.com/pngs/m/110-1102328_iconos-de-redes-sociales-png-sebtec-logo-twitter.png" height="20" width="20">
       <a href="https://twitter.com/PrachiSpace9" target="_blank" style="color: #004594;">Twitter</a><br>
@@ -48,7 +51,10 @@
       <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" target="_blank" style="color: #004594;">Google Scholar</a>
 
       <br><br>
-      <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" style="color: #004594;">orderedlist</a></small>
+      <small style="color: black;">
+        Hosted on GitHub Pages &mdash; Theme by 
+        <a href="https://github.com/orderedlist" style="color: #004594;">orderedlist</a>
+      </small>
 
       {% if site.show_downloads %}
         <ul class="downloads">
@@ -59,13 +65,20 @@
     </header>
 
     <!-- Main Content -->
-    <section>
+    <section style="color: black;">
+      <p>
+        I’m an Economics Ph.D. candidate at 
+        <a href="https://www.ucd.ie/economics/" target="_blank" style="font-weight: bold; color: #004594;">
+          University College Dublin (UCD)
+        </a> 
+        under the supervision of Karl Whelan and co-supervised by Constantin Bürgi.
+      </p>
+
       {{ content }}
     </section>
-
   </div>
 
-  <!-- Navigation Style -->
+  <!-- Top Navigation Style -->
   <style>
     .top-nav {
       position: fixed;
@@ -89,17 +102,17 @@
       text-decoration: none;
       color: #004594;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .top-nav ul li a:hover,
     .top-nav ul li a.active {
       text-decoration: underline;
-      color: #002B66; /* Darker variation */
+      color: #002B66;
     }
   </style>
 
-  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
   {% if site.google_analytics %}
   <script>
