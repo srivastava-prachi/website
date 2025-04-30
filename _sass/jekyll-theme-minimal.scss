@@ -38,13 +38,14 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #0B1C39;
+  color: #004594 !important;   /* Navy blue for all links */
+  font-weight: bold !important;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #003366;
-  font-weight: bold;
+  color: #002B66 !important;   /* Slightly darker on hover */
+  text-decoration: underline;
 }
 
 a small {
