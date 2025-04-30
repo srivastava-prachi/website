@@ -3,7 +3,6 @@ title: Home
 layout: template
 filename: index
 order: 0
-page_class: home
 ---  
 
 ## About Me
