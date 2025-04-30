@@ -174,14 +174,11 @@ ul.downloads {
 }
 
 section {
-  /* push it past your fixed-width sidebar/header: */
-  margin-left: 300px;    /* ← adjust to your header width + any gap */
-  /* let it fill the rest of the page: */
-  width: auto;
-  float: none;
+  float: none !important;
+  width: auto  !important;
+  max-width: 800px;   
+  margin: 80px 0 0 300px;  /* <-- add a top margin of 80px */
   padding-bottom: 50px;
-  /* optionally cap the max width so your lines don’t get too long: */
-  max-width: 800px;      /* ← whatever you prefer */
 }
 
 small {
