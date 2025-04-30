@@ -109,29 +109,16 @@ header {
   top: 50px;
   left: 50px;
   width: 200px;
-  /* add margin if you like */
 }
 
-/* — only on Home — */
+/* Home only: shift sidebar & photo right */
 body.home header {
-  /* move the entire header (and thus the picture) in from the left */
   left: 80px !important;
 }
-
 body.home header img {
-  /* give the image some breathing room on its right edge */
   margin-right: 20px;
 }
 
-body.home section {
-  /* push your "About Me" content right of the picture */
-  margin-left: calc(80px + 180px + 20px) !important;
-  /* 
-    = header left offset (80px)
-    + max-width of img (180px)
-    + the img’s right margin (20px)
-  */
-}
 /* Download buttons under header */
 ul.downloads {
   list-style: none;
@@ -197,17 +184,15 @@ ul.downloads {
    Main content section
 ───────────────────────────────────────────────────────────────────────────── */
 section {
-  /* push it past your fixed-width sidebar/header: */
-  margin-left: -300px; 
+  margin-left: 0;
   width: auto;
   float: none;
   padding-bottom: 50px;
-  max-width: 800px;      /* ← whatever you prefer */
+  max-width: 800px;
 }
-
-/* On Home page, we want the “About me” flush beneath the picture: */
+/* Home only: indent by sidebar + photo + gutter */
 body.home section {
-  margin-left: 300px !important;
+  margin-left: calc(80px + 180px + 20px) !important;
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
