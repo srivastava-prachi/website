@@ -15,9 +15,6 @@ I have a BA in Economics from the [University of Delhi](https://www.du.ac.in/){:
 
 I am a co-organizer of the [Young Irish Economics Seminar Series (YIESS)](https://sites.google.com/view/yiess){:target="_blank"}. 
 
-## Resume
-
-You can download my [CV](./documents/Prachi_Srivastava_CV.pdf){:target="_blank} here.
 
 ## Updates 
 
