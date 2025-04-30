@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,19 +13,19 @@
   <![endif]-->
 </head>
 
-<body style="background-color: #FEFEFC; color: black;">
+<body style="background-color: #FEFEFC; color: #000;">
   <div class="wrapper">
 
     <!-- Navigation Bar -->
     <nav class="top-nav">
       <ul>
         <!-- Hardcoded Home tab -->
-        <li><a class="{% if page.url == "/" %}active{% endif %}" href="{{ site.github.url }}/">Home</a></li>
+        <li><a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.github.url }}/">Home</a></li>
 
-        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% assign sorted_pages = site.pages | sort: "order" %}
         {% for node in sorted_pages %}
           {% unless node.title == "About" or node.url == "/" %}
-            <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">{{node.title}}</a></li>
+            <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{ node.filename }}">{{ node.title }}</a></li>
           {% endunless %}
         {% endfor %}
       </ul>
@@ -34,11 +34,17 @@
     <!-- Header Section -->
     <header>
       <h2><b>Prachi Srivastava</b></h2>
-      <img src="images/profile_pic.jpeg">
+      <img src="{{ site.github.url }}/images/profile_pic.jpeg">
 
-      <p>
-        I’m an Economics Ph.D. candidate at <a href="https://www.ucd.ie/economics/" target="_blank" style="color: #004594; font-weight: bold;">University College Dublin (UCD)</a> under the supervision of Karl Whelan and co-supervised by Constantin Bürgi.
-      </p>
+      {% if page.url == "/" %}
+        <p>
+          I’m an Economics Ph.D. candidate at
+          <a href="https://www.ucd.ie/economics/" target="_blank" style="color: #004594; font-weight: bold;">
+            University College Dublin (UCD)
+          </a>
+          under the supervision of Karl Whelan and co-supervised by Constantin Bürgi.
+        </p>
+      {% endif %}
 
       <small>prachi.srivastava@ucdconnect.ie</small><br>
       <small>prachi.jmc13@gmail.com</small><br><br>
@@ -51,6 +57,13 @@
 
       <br><br>
       <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" style="color: #004594;">orderedlist</a></small>
+
+      {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+        </ul>
+      {% endif %}
     </header>
 
     <!-- Main Content -->
@@ -60,7 +73,7 @@
 
   </div>
 
-  <!-- Navigation Style -->
+  <!-- Navigation Bar Style -->
   <style>
     .top-nav {
       position: fixed;
@@ -90,7 +103,7 @@
     .top-nav ul li a:hover,
     .top-nav ul li a.active {
       text-decoration: underline;
-      color: #002B66;
+      color: #002B66; /* Darker Navy */
     }
   </style>
 
