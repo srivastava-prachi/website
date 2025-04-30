@@ -1,111 +1,115 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=.9">
-    <title>Prachi Srivastava</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=.9">
+  <title>Prachi Srivastava</title>
+  
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body style="background-color: #FFFAF0;">
+  <div class="wrapper">
     
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-  </head>
-  <body background-color="#FFFAF0">
-    <div class="wrapper">
-      <header>
-        <h2><b>Prachi Srivastava</b></h2>
-        
-        <img src="images/profile_pic.jpeg">
-
-         <p><a href="https://www.ucd.ie/economics/" target="https://www.ucd.ie/economics/">PhD Candidate in Economics at University College Dublin </a></p>
-     
-        
-        <br>
-        <small>prachi.srivastava@ucdconnect.ie</small><br>
-        <small>prachi.jmc13@gmail.com</small>
-        <br>
-        
-        <img src='https://www.pngfind.com/pngs/m/110-1102328_iconos-de-redes-sociales-png-sebtec-logo-twitter.png' height=5% width=5%>
-        <a href="https://twitter.com/PrachiSpace9" target="https://twitter.com/PrachiSpace9" style="color: #CD5C5C;">Twitter</a>
-        <br>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg' height=5% width=5%>
-        <a href= "https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ&view_op=list_works&authuser=1&gmla=AJsN-F5DdiDHEcieYiU0hjoBpPitIM4WbCKsNgJDjU56s5IPW-5mIdD0T4-kWZw3PvNcsM17fTn_cs5u34uj-dxZdcFVaPEJHLLiyopwFMOKJHNMwWOO2FI" style="color: #CD5C5C;" target="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ&view_op=list_works&authuser=1&gmla=AJsN-F5DdiDHEcieYiU0hjoBpPitIM4WbCKsNgJDjU56s5IPW-5mIdD0T4-kWZw3PvNcsM17fTn_cs5u34uj-dxZdcFVaPEJHLLiyopwFMOKJHNMwWOO2FI">Google Scholar</a>
-        <br>
-        <br>        
-        <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
-        <br>
-       
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-     
-       <section>
-       
-    {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-     
-       <section>
-       
-     <nav>
+    <!-- Navigation Bar -->
+    <nav class="top-nav">
       <ul>
         {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for node in sorted_pages %}
-          <li><a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">{{node.title}}</a></li>
+        {% for node in sorted_pages %}
+          <li>
+            <a class="{% if page.url == node.url %}active{% endif %}" href="{{ site.github.url }}/{{node.filename}}">
+              {{ node.title }}
+            </a>
+          </li>
         {% endfor %}
       </ul>
-    </nav>  
-        
-      {{ content }}
-        
-      <style>
-      nav ul {
-        display: flex;
-        list-style: none;
-        margin-right: 5px;
-      }
-      nav ul li {
-        margin-right: 10px;
-        color: #CD5C5C;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: #CD5C5C;
-      }
-      nav ul li a:hover {
-        text-decoration: underline;
-        color: #CD5C5C;
-      }
-      .active {
-        text-decoration: underline;
-        color: #CD5C5C;
-      }
-    </style>
+    </nav>
 
-   </section>  
+    <!-- Header Section -->
+    <header>
+      <h2><b>Prachi Srivastava</b></h2>
+      <img src="images/profile_pic.jpeg">
+
+      <p>
+        <a href="https://www.ucd.ie/economics/" target="_blank">PhD Candidate in Economics at University College Dublin</a>
+      </p>
       
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
+      <small>prachi.srivastava@ucdconnect.ie</small><br>
+      <small>prachi.jmc13@gmail.com</small><br><br>
+
+      <img src="https://www.pngfind.com/pngs/m/110-1102328_iconos-de-redes-sociales-png-sebtec-logo-twitter.png" height="20" width="20">
+      <a href="https://twitter.com/PrachiSpace9" target="_blank" style="color: #CD5C5C;">Twitter</a><br>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" height="20" width="20">
+      <a href="https://scholar.google.com/citations?hl=en&user=WZCkXbUAAAAJ" style="color: #CD5C5C;" target="_blank">Google Scholar</a>
+
+      <br><br>
+      <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
+
+      {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+        </ul>
+      {% endif %}
+    </header>
+
+    <!-- Main Content -->
+    <section>
+      {{ content }}
+    </section>
+
+  </div>
+
+  <!-- Top Nav CSS -->
+  <style>
+    .top-nav {
+      position: fixed;
+      top: 20px;
+      right: 40px;
+      z-index: 1000;
+    }
+
+    .top-nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .top-nav ul li {
+      margin-left: 15px;
+    }
+
+    .top-nav ul li a {
+      text-decoration: none;
+      color: #0B1C39; /* Navy Blue */
+      font-weight: bold;
+    }
+
+    .top-nav ul li a:hover,
+    .top-nav ul li a.active {
+      text-decoration: underline;
+      color: #003366; /* Darker Navy */
+    }
+  </style>
+
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+  {% if site.google_analytics %}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
 </html>
