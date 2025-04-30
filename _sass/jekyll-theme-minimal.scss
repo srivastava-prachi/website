@@ -178,7 +178,7 @@ ul.downloads {
 ───────────────────────────────────────────────────────────────────────────── */
 section {
   /* push it past your fixed-width sidebar/header: */
-  margin-left: 20px; 
+  margin-left: -5px; 
   width: auto;
   float: none;
   padding-bottom: 50px;
@@ -187,7 +187,7 @@ section {
 
 /* On Home page, we want the “About me” flush beneath the picture: */
 body.home section {
-  margin-left: 300px !important;
+  margin-left: 200px !important;
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
