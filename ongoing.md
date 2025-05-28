@@ -52,8 +52,8 @@ With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"}, [Constantin 
 <br>
 
 **Inflation Uncertainty and Household Wage Growth Expectations**  
-With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.  
->[Draft]([https://www.dropbox.com/scl/fi/wxp6kppwp4kyud0lpfh1r/Drivers_of_Household_Inflation_Uncertainty.pdf?rlkey=8zafc6rmd0cia6byxsehb070o&e=1&dl=0](https://www.dropbox.com/home/Inflation%20uncertainty?preview=Household+Inflation+Uncertainty+and+Wage+Growth+Expectation.pdf)){:target="_blank"}
+With [Philip Schnattinger]([https://philipschnattinger.github.io/){:target="_blank"}.  
+>[Draft](https://www.dropbox.com/home/Inflation%20uncertainty?preview=Household+Inflation+Uncertainty+and+Wage+Growth+Expectation.pdf){:target="_blank"}
 
 <details>
   <summary>Abstract</summary>
