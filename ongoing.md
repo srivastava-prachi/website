@@ -51,23 +51,23 @@ With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"}, [Constantin 
 </details>
 <br>
 
-
----
-
-# Work in Progress
-
 **Inflation Uncertainty and Household Wage Growth Expectations**  
 With [Philip Schnattinger](https://philipschnattinger.github.io/){:target="_blank"}.  
-> Draft coming soon!
+>[Draft]([https://www.dropbox.com/scl/fi/wxp6kppwp4kyud0lpfh1r/Drivers_of_Household_Inflation_Uncertainty.pdf?rlkey=8zafc6rmd0cia6byxsehb070o&e=1&dl=0](https://www.dropbox.com/home/Inflation%20uncertainty?preview=Household+Inflation+Uncertainty+and+Wage+Growth+Expectation.pdf)){:target="_blank"}
 
 <details>
   <summary>Abstract</summary>
   <br>
   <blockquote>
-   This paper investigates how subjective household inflation uncertainty—capturing second-moment beliefs—shapes employed individuals’ expectations of nominal wage growth. Utilizing detailed microdata from the Federal Reserve Bank of New York’s Survey of Consumer Expectations (SCE), we document two key empirical findings: (i) individual-level inflation uncertainty is positively associated with wage growth expectations, and (ii) this relationship is significantly stronger for low-income and low-wealth households. To address potential endogeneity arising from simultaneity in wage-price dynamics, we propose a novel instrumental variable strategy that exploits variations in forecast imprecision for highly salient consumer goods (gasoline and food). Our identification leverages the cognitive heuristic that individuals use ”round numbers to represent uncertain forecasts,” generating quasi-exogenous variation in inflation uncertainty. To interpret these empirical findings, we develop a search-and-matching model of the labor market with heterogeneous worker wealth, extending the framework of Krusell et al.(2010) to incorporate wage bargaining under uncertainty, combining the alternative offer bargaining wage bargain proposed Hall and Milgrom (2008) with the solution for bargaining under uncertainty developed in White (2008). In our model, nominal wages are negotiated before the realization of inflation. Risk-averse workers, facing uncertainty about their future real purchasing power, demand higher nominal wages as compensation for bearing inflation risk. This compensating risk premium mechanism plays a pivotal role, explaining why increased inflation uncertainty leads workers to form higher nominal wage growth expectations and negotiate higher wage increases. The mechanism is particularly strong for those workers with lower income and wealth who are less able to smooth consumption when inflation risk is high. Our findings highlight the importance of second-moment beliefs in wage determination and contribute to broader debates on inflation dynamics, labor market behavior, and the optimal design of monetary and fiscal policy under uncertainty
+   This paper investigates how subjective household inflation uncertainty around future prices shapes employed individuals’ expectations of nominal wage growth. Utilizing detailed microdata from the Federal Reserve Bank of New York’s Survey of Consumer Expectations (SCE), we document two key empirical findings: (i) individual-level inflation uncertainty is positively associated with wage growth expectations, and (ii) this relationship is marginally higher for low-income households. To address potential endogeneity arising from wage-price dynamics, we propose a novel instrumental variable strategy that exploits variations in forecast imprecision for highly salient consumer goods (gasoline and food). Our identification leverages the cognitive heuristic that individuals use ”round numbers to represent uncertain forecasts,” generating quasi-exogenous
+variation in inflation uncertainty. To interpret these empirical findings, we develop a search-and-matching model of the labor market with heterogeneous worker wealth, extending the framework of Krusell et al. (2010) to incorporate wage bargaining under uncertainty. We propose wage bargaining under uncertainty, combining the alternative offer bargaining wage bargain proposed Hall and Milgrom (2008) with the solution for
+bargaining under uncertainty developed in White (2008). In our model, nominal wages are negotiated before the realization of inflation. Risk-averse workers, facing uncertainty about their future real purchasing power, demand higher nominal wages as compensation for bearing inflation risk. This compensating risk premium mechanism plays a pivotal role, explaining why increased inflation uncertainty leads workers to form higher nominal wage growth expectations and negotiate higher wage increases.
   </blockquote>
 </details>
 <br>
+---
+
+# Work in Progress
 
 **Salience in Inflation Expectations: Evidence from the UK**{:target="_blank"}.
 
