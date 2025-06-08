@@ -5,11 +5,11 @@ filename: ongoing
 order: 1
 ---
 
-# Working Papers
+# Published
 
 **[Expectations for Gasoline Prices and Inflation: Evidence from Households](./papers/Gasoline_Inflation_exp.pdf){:target="_blank"}**  
 With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"}, [Constantin Bürgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.  
-> Conditionally Accepted JMCB
+> Accepted JMCB
 
 <details>
   <summary>Abstract</summary>
@@ -20,6 +20,7 @@ With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"}, [Constantin 
 </details>
 <br>
 
+# Working Papers
 
 **Firm Climate Investment: A Glass Half-Full** With [Ivan Yotzov](https://www.iyotzov.com/){:target="_blank"}, [Nicholas Bloom](#){:target="_blank"}, [Philip Bunn](#){:target="_blank"}, [Paul Mizen](#){:target="_blank"}, [Gregory Thwaites](#){:target="_blank"}.
 
