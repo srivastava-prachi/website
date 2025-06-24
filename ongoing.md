@@ -9,7 +9,7 @@ order: 1
 
 **[Expectations for Gasoline Prices and Inflation: Evidence from Households](./papers/Gasoline_Inflation_exp.pdf){:target="_blank"}**  
 With [Karl Whelan](https://karlwhelan.com/blog/){:target="_blank"}, [Constantin Bürgi](https://sites.google.com/view/cburgi/home){:target="_blank"}.  
-> Accepted JMCB
+> Forthcoming Journal of Money, Credit and Banking
 
 <details>
   <summary>Abstract</summary>
